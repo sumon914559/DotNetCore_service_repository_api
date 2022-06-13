@@ -1,0 +1,13 @@
+C:\Users\User\Desktop\DotNetTest\TestApi\API\BLL\bin\Debug\netcoreapp3.1\BLL.deps.json
+C:\Users\User\Desktop\DotNetTest\TestApi\API\BLL\bin\Debug\netcoreapp3.1\BLL.dll
+C:\Users\User\Desktop\DotNetTest\TestApi\API\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
+C:\Users\User\Desktop\DotNetTest\TestApi\API\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\DotNetTest\TestApi\API\BLL\obj\Debug\netcoreapp3.1\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\DotNetTest\TestApi\API\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\DotNetTest\TestApi\API\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
+C:\Users\User\Desktop\DotNetTest\TestApi\API\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\DotNetTest\TestApi\API\BLL\obj\Debug\netcoreapp3.1\BLL.dll
+C:\Users\User\Desktop\DotNetTest\TestApi\API\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
+C:\Users\User\Desktop\DotNetTest\TestApi\API\BLL\bin\Debug\netcoreapp3.1\DLL.dll
+C:\Users\User\Desktop\DotNetTest\TestApi\API\BLL\bin\Debug\netcoreapp3.1\DLL.pdb
+C:\Users\User\Desktop\DotNetTest\TestApi\API\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete

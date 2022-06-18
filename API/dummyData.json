@@ -1,0 +1,18 @@
+﻿{
+
+  "status": "success",
+  "status_code": 4001,
+  "data": {
+    "uuid": "OVyBgtwt5NSOzt336yGhONQjOyDHYJeE",
+    "nid_no": "6003721039",
+    "dob": "1995/01/01",
+    "applicant_name_ben": "কামাল হ োসে ন",
+    "applicant_name_eng": "KAMAL HOSSEN",
+    "father_name": "ম োঃ আঃ আউয়াল",
+    "mother_name": "ম োছাঃ ইয়াকুতুন নে ছা",
+    "spouse_name": "none",
+    "address": "বাসু বাসা/হ োল্ডি ং: মসজি দে র পাশে , গ্রাম/রাস্তা: কুমরী মুদি পাড়া, ডাকঘর: বাজি তখি লা - ২১০০, টাঙ্গাইল,সদর,টাঙ্গাইল"
+   
+  }
+
+}

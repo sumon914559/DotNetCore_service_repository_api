@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\DotNetTest\\TestApi\\API\\API\\API.csproj": {}
+    "C:\\Users\\User\\Desktop\\DotNetTest\\NidImageUploadApi\\API\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\DotNetTest\\TestApi\\API\\API\\API.csproj": {
+    "C:\\Users\\User\\Desktop\\DotNetTest\\NidImageUploadApi\\API\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\DotNetTest\\TestApi\\API\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\DotNetTest\\NidImageUploadApi\\API\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\User\\Desktop\\DotNetTest\\TestApi\\API\\API\\API.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\DotNetTest\\NidImageUploadApi\\API\\API\\API.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\DotNetTest\\TestApi\\API\\API\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\DotNetTest\\NidImageUploadApi\\API\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\DotNetTest\\TestApi\\API\\BLL\\BLL.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\DotNetTest\\TestApi\\API\\BLL\\BLL.csproj"
+              "C:\\Users\\User\\Desktop\\DotNetTest\\NidImageUploadApi\\API\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\DotNetTest\\NidImageUploadApi\\API\\BLL\\BLL.csproj"
               },
-              "C:\\Users\\User\\Desktop\\DotNetTest\\TestApi\\API\\DLL\\DLL.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\DotNetTest\\TestApi\\API\\DLL\\DLL.csproj"
+              "C:\\Users\\User\\Desktop\\DotNetTest\\NidImageUploadApi\\API\\DLL\\DLL.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\DotNetTest\\NidImageUploadApi\\API\\DLL\\DLL.csproj"
               }
             }
           }
@@ -92,14 +92,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\DotNetTest\\TestApi\\API\\BLL\\BLL.csproj": {
+    "C:\\Users\\User\\Desktop\\DotNetTest\\NidImageUploadApi\\API\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\DotNetTest\\TestApi\\API\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\DotNetTest\\NidImageUploadApi\\API\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\User\\Desktop\\DotNetTest\\TestApi\\API\\BLL\\BLL.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\DotNetTest\\NidImageUploadApi\\API\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\DotNetTest\\TestApi\\API\\BLL\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\DotNetTest\\NidImageUploadApi\\API\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -116,8 +116,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\DotNetTest\\TestApi\\API\\DLL\\DLL.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\DotNetTest\\TestApi\\API\\DLL\\DLL.csproj"
+              "C:\\Users\\User\\Desktop\\DotNetTest\\NidImageUploadApi\\API\\DLL\\DLL.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\DotNetTest\\NidImageUploadApi\\API\\DLL\\DLL.csproj"
               }
             }
           }
@@ -131,6 +131,36 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -150,14 +180,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\DotNetTest\\TestApi\\API\\DLL\\DLL.csproj": {
+    "C:\\Users\\User\\Desktop\\DotNetTest\\NidImageUploadApi\\API\\DLL\\DLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\DotNetTest\\TestApi\\API\\DLL\\DLL.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\DotNetTest\\NidImageUploadApi\\API\\DLL\\DLL.csproj",
         "projectName": "DLL",
-        "projectPath": "C:\\Users\\User\\Desktop\\DotNetTest\\TestApi\\API\\DLL\\DLL.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\DotNetTest\\NidImageUploadApi\\API\\DLL\\DLL.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\DotNetTest\\TestApi\\API\\DLL\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\DotNetTest\\NidImageUploadApi\\API\\DLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

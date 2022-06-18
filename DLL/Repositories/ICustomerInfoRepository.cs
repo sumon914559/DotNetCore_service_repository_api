@@ -1,17 +1,19 @@
-﻿using System;
+﻿using DLL.Model;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace DLL.Repositories
 {
-    public interface ICustomerInfoRepository
+    public interface ICustomerInfoRepository : IBaseRepository<CustomerInfo>
     {
     }
 
-    public class CustomerInfoRepository : ICustomerInfoRepository
+    public class CustomerInfoRepository : BaseRepository<CustomerInfo>, ICustomerInfoRepository
     {
         private readonly ApplicationDbContext _context;
-        public CustomerInfoRepository(ApplicationDbContext context)
+
+        public CustomerInfoRepository(ApplicationDbContext context) : base(context)
         {
             _context = context;
         }

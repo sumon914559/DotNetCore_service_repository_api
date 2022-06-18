@@ -28,13 +28,13 @@ namespace DLL.Migrations
                     b.Property<string>("Address")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("BnName")
+                    b.Property<string>("CustomerName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Dob")
+                    b.Property<string>("CustomerNameBen")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("EnName")
+                    b.Property<string>("DateOfBirth")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FatherName")
@@ -43,7 +43,13 @@ namespace DLL.Migrations
                     b.Property<string>("MotherName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Nid")
+                    b.Property<string>("NIDNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SpouseName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Uid")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

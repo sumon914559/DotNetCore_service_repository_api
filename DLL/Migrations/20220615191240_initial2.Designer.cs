@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DLL.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220613185304_initial")]
-    partial class initial
+    [Migration("20220615191240_initial2")]
+    partial class initial2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -30,13 +30,13 @@ namespace DLL.Migrations
                     b.Property<string>("Address")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("BnName")
+                    b.Property<string>("CustomerName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Dob")
+                    b.Property<string>("CustomerNameBen")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("EnName")
+                    b.Property<string>("DateOfBirth")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FatherName")
@@ -45,7 +45,13 @@ namespace DLL.Migrations
                     b.Property<string>("MotherName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Nid")
+                    b.Property<string>("NIDNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SpouseName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Uid")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

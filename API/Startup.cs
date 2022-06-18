@@ -26,6 +26,7 @@ namespace API
         }
 
         public IConfiguration Configuration { get; }
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -41,13 +42,28 @@ namespace API
 
             services.AddTransient<ICustomerInfoRepository, CustomerInfoRepository>();
             services.AddTransient<ICustomerInfoService, CustomerInfoService>();
+            services.AddTransient<INidUploadService, NidUploadService>();
+            services.AddTransient<IOcrDataService, OcrDataService>();
 
-                
+
+
 
 
             services.AddControllers();
+            services.AddHttpClient();
+            services.AddHttpContextAccessor();
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                                  policy =>
+                                  {
+                                      policy.WithOrigins("http://localhost:4200")
+                                      .AllowAnyHeader()
+                                      .AllowAnyMethod();
+                                  });
+            });
 
-            
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -70,6 +86,7 @@ namespace API
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseCors(MyAllowSpecificOrigins);
 
             app.UseAuthorization();
 

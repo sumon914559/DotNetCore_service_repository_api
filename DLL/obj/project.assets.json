@@ -5804,11 +5804,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\DotNetTest\\TestApi\\API\\DLL\\DLL.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\DotNetTest\\NidImageUploadApi\\API\\DLL\\DLL.csproj",
       "projectName": "DLL",
-      "projectPath": "C:\\Users\\User\\Desktop\\DotNetTest\\TestApi\\API\\DLL\\DLL.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\DotNetTest\\NidImageUploadApi\\API\\DLL\\DLL.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\DotNetTest\\TestApi\\API\\DLL\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\DotNetTest\\NidImageUploadApi\\API\\DLL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
